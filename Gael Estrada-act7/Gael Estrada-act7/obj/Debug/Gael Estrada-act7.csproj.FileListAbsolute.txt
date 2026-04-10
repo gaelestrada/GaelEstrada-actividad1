@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\bin\Debug\Gael Estrada-act7.exe.config
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\bin\Debug\Gael Estrada-act7.exe
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\bin\Debug\Gael Estrada-act7.pdb
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\obj\Debug\Gael Estrada-act7.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\obj\Debug\Gael Estrada-act7.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\obj\Debug\Gael Estrada-act7.exe
+C:\Users\alumno\source\repos\Gael Estrada-act7\Gael Estrada-act7\obj\Debug\Gael Estrada-act7.pdb
