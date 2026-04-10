@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="GaelEstradaAct-1/GaelEstradaAct-1.csproj" Id="32be4c41-ed01-4967-a937-d77341e3893e" />
+  <Project Path="Punto1/Punto1.csproj" Id="7e45d997-4ef3-4d85-a27e-6cc1d2bf4778" />
+  <Project Path="Punto2/Punto2.csproj" Id="35234954-1d99-4172-a893-f25e2c38d583" />
+  <Project Path="Punto3/Punto3.csproj" Id="a8dfb605-b281-4726-a40f-b539eb0a9ac9" />
+  <Project Path="Punto4/Punto4.csproj" Id="4acc4374-6ea8-4e13-bf4d-43ae181944c5" />
+  <Project Path="Punto5/Punto5.csproj" Id="4135adca-9cdd-4175-b8d9-be8dc063a7c9" />
+  <Project Path="Punto6/Punto6.csproj" Id="501eb7c6-4cf7-488d-9776-ccdbf132f7ae" />
+</Solution>

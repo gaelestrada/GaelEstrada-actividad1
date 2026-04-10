@@ -48,10 +48,7 @@ namespace Ejercicio4
                 Console.WriteLine("No se puede dividir por cero");
             }
         }
-    }
 
-    class Program
-    {
         static void Main(string[] args)
         {
             Operaciones op = new Operaciones();

@@ -31,10 +31,7 @@ namespace Ejercicio1
             else
                 Console.WriteLine("El punto se encuentra sobre un eje");
         }
-    }
 
-    class Program
-    {
         static void Main(string[] args)
         {
             Punto punto = new Punto();
@@ -45,3 +42,4 @@ namespace Ejercicio1
         }
     }
 }
+

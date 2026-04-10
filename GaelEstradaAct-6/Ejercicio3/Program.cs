@@ -32,10 +32,7 @@ namespace Ejercicio3
             else
                 Console.WriteLine("No debe pagar impuestos");
         }
-    }
 
-    class Program
-    {
         static void Main(string[] args)
         {
             Empleado empleado = new Empleado();
@@ -47,3 +44,4 @@ namespace Ejercicio3
         }
     }
 }
+

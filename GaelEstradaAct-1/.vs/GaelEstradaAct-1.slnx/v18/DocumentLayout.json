@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E45D997-4EF3-4D85-A27E-6CC1D2BF4778}|Punto1\\Punto1.csproj|c:\\users\\alumno\\source\\repos\\gaelestradaact-1\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E45D997-4EF3-4D85-A27E-6CC1D2BF4778}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501EB7C6-4CF7-488D-9776-CCDBF132F7AE}|Punto6\\Punto6.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\punto6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{501EB7C6-4CF7-488D-9776-CCDBF132F7AE}|Punto6\\Punto6.csproj|solutionrelative:punto6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4135ADCA-9CDD-4175-B8D9-BE8DC063A7C9}|Punto5\\Punto5.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4135ADCA-9CDD-4175-B8D9-BE8DC063A7C9}|Punto5\\Punto5.csproj|solutionrelative:punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC4374-6EA8-4E13-BF4D-43AE181944C5}|Punto4\\Punto4.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACC4374-6EA8-4E13-BF4D-43AE181944C5}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8DFB605-B281-4726-A40F-B539EB0A9AC9}|Punto3\\Punto3.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8DFB605-B281-4726-A40F-B539EB0A9AC9}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35234954-1D99-4172-A893-F25E2C38D583}|Punto2\\Punto2.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35234954-1D99-4172-A893-F25E2C38D583}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BE4C41-ED01-4967-A937-D77341E3893E}|GaelEstradaAct-1\\GaelEstradaAct-1.csproj|C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\gaelestradaact-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32BE4C41-ED01-4967-A937-D77341E3893E}|GaelEstradaAct-1\\GaelEstradaAct-1.csproj|solutionrelative:gaelestradaact-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto6\\Program.cs",
+              "RelativeDocumentMoniker": "Punto6\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto6\\Program.cs",
+              "RelativeToolTip": "Punto6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:11:16.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto5\\Program.cs",
+              "RelativeDocumentMoniker": "Punto5\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto5\\Program.cs",
+              "RelativeToolTip": "Punto5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:11:02.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto4\\Program.cs",
+              "RelativeDocumentMoniker": "Punto4\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto4\\Program.cs",
+              "RelativeToolTip": "Punto4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:10:42.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto3\\Program.cs",
+              "RelativeDocumentMoniker": "Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto3\\Program.cs",
+              "RelativeToolTip": "Punto3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:10:28.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto2\\Program.cs",
+              "RelativeDocumentMoniker": "Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto2\\Program.cs",
+              "RelativeToolTip": "Punto2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:10:10.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\Punto1\\Program.cs",
+              "RelativeToolTip": "Punto1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:07:44.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\GaelEstradaAct-1\\Program.cs",
+              "RelativeDocumentMoniker": "GaelEstradaAct-1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\source\\repos\\GaelEstradaAct-1\\GaelEstradaAct-1\\Program.cs",
+              "RelativeToolTip": "GaelEstradaAct-1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:07:24.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

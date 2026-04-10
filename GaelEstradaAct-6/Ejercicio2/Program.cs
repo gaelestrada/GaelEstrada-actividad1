@@ -26,10 +26,7 @@ namespace Ejercicio2
             int superficie = lado * lado;
             Console.WriteLine("La superficie es: " + superficie);
         }
-    }
 
-    class Program
-    {
         static void Main(string[] args)
         {
             Cuadrado cuadrado = new Cuadrado();
