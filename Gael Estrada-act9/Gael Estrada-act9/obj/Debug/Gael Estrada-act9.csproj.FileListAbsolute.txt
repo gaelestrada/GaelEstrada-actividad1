@@ -1,0 +1,7 @@
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\bin\Debug\Gael Estrada-act9.exe.config
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\bin\Debug\Gael Estrada-act9.exe
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\bin\Debug\Gael Estrada-act9.pdb
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\obj\Debug\Gael Estrada-act9.csproj.AssemblyReference.cache
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\obj\Debug\Gael Estrada-act9.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\obj\Debug\Gael Estrada-act9.exe
+C:\Users\alumno\Downloads\CarpetaAlgoritmo\Gael Estrada-act9\Gael Estrada-act9\obj\Debug\Gael Estrada-act9.pdb
