@@ -59,7 +59,6 @@ namespace Punto2
             Cargar();
             Ordenar();
             Mostrar();
-
             Console.ReadKey();
         }
     }

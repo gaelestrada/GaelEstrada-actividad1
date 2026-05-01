@@ -55,7 +55,6 @@ namespace Punto3
             Console.WriteLine("Puntuación más baja: " + menor);
             Console.WriteLine("Promedio: " + promedio);
             Console.WriteLine("Veces que superó 500 puntos: " + mayores500);
-
             Console.ReadKey();
         }
     }

@@ -48,7 +48,6 @@ namespace Punto4
                     Console.WriteLine("El vector no está ordenado");
                 }
             }
-
             Console.ReadKey();
         }
     }

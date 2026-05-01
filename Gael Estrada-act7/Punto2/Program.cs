@@ -40,7 +40,6 @@ namespace Punto2
             {
                 Console.WriteLine(vectorSuma[i]);
             }
-
             Console.ReadKey();
         }
     }

@@ -78,7 +78,6 @@ namespace Punto1
         {
             Cargar();
             Procesar();
-
             Console.ReadKey();
         }
     }

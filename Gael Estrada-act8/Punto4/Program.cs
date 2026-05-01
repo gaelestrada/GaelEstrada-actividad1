@@ -71,7 +71,6 @@ namespace Punto4
             {
                 Console.WriteLine(paises[i] + " - " + habitantes[i]);
             }
-
             Console.ReadKey();
         }
     }

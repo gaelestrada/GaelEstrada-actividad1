@@ -48,7 +48,6 @@ namespace Punto1
             {
                 Console.WriteLine("El menor se repite");
             }
-
             Console.ReadKey();
         }
     }

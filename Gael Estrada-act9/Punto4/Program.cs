@@ -71,7 +71,6 @@ namespace Punto4
             Cargar();
             Ordenar();
             Procesar();
-
             Console.ReadKey();
         }
     }

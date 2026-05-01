@@ -40,7 +40,6 @@ namespace Punto3
             {
                 Console.WriteLine(vector[i]);
             }
-
             Console.ReadKey();
         }
     }

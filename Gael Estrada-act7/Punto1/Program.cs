@@ -38,7 +38,6 @@ namespace Punto1
             Console.WriteLine("Suma total del vector: " + sumaTotal);
             Console.WriteLine("Suma de los mayores a 36: " + sumaMayores36);
             Console.WriteLine("Cantidad de valores mayores a 50: " + cantidadMayores50);
-
             Console.ReadKey();
         }
     }

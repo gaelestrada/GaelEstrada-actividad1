@@ -70,7 +70,6 @@ namespace Punto3
         {
             Cargar();
             Procesar();
-
             Console.ReadKey();
         }
     }

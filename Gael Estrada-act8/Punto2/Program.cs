@@ -35,7 +35,6 @@ namespace Punto2
             {
                 Console.WriteLine(paises[i]);
             }
-
             Console.ReadKey();
         }
     }
