@@ -1,4 +1,5 @@
-﻿// Punto 2: Vendedores y ventas. Ordenar de mayor a menor y mostrar el que menos vendió.
+﻿// Punto 2: Vendedores y ventas.
+// Ordenar de mayor a menor y mostrar el que menos vendió.
 
 using System;
 
@@ -29,13 +30,13 @@ namespace Punto2
                 {
                     if (ventas[i] < ventas[j])
                     {
-                        int auxV = ventas[i];
+                        int auxVenta = ventas[i];
                         ventas[i] = ventas[j];
-                        ventas[j] = auxV;
+                        ventas[j] = auxVenta;
 
-                        string auxN = nombres[i];
+                        string auxNombre = nombres[i];
                         nombres[i] = nombres[j];
-                        nombres[j] = auxN;
+                        nombres[j] = auxNombre;
                     }
                 }
             }
@@ -43,13 +44,14 @@ namespace Punto2
 
         static void Mostrar()
         {
-            Console.WriteLine("Ordenados:");
+            Console.WriteLine("Lista ordenada:");
+
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine(nombres[i] + " - " + ventas[i]);
             }
 
-            Console.WriteLine("El que menos vendió: " + nombres[4]);
+            Console.WriteLine("El que menos vendio fue: " + nombres[4]);
         }
 
         static void Main(string[] args)
@@ -57,6 +59,7 @@ namespace Punto2
             Cargar();
             Ordenar();
             Mostrar();
+
             Console.ReadKey();
         }
     }
