@@ -3,53 +3,47 @@
 
 using System;
 
-namespace Punto4
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int[] vector = new int[10];
+
+        for (int i = 0; i < 10; i++)
         {
-            int[] vector = new int[10];
-
-            for (int i = 0; i < 10; i++)
-            {
-                Console.Write("Ingrese valor: ");
-                vector[i] = Convert.ToInt32(Console.ReadLine());
-            }
-
-            bool ascendente = true;
-            bool descendente = true;
-
-            for (int i = 0; i < 9; i++)
-            {
-                if (vector[i] >= vector[i + 1])
-                {
-                    ascendente = false;
-                }
-
-                if (vector[i] <= vector[i + 1])
-                {
-                    descendente = false;
-                }
-            }
-
-            if (ascendente)
-            {
-                Console.WriteLine("El vector está ordenado de menor a mayor");
-            }
-            else
-            {
-                if (descendente)
-                {
-                    Console.WriteLine("El vector está ordenado de mayor a menor");
-                }
-                else
-                {
-                    Console.WriteLine("El vector no está ordenado");
-                }
-            }
-
-            Console.ReadKey();
+            Console.Write("Ingrese valor: ");
+            vector[i] = Convert.ToInt32(Console.ReadLine());
         }
+
+        bool ascendente = true;
+        bool descendente = true;
+
+        for (int i = 0; i < 9; i++)
+        {
+            if (vector[i] < vector[i + 1] == false)
+            {
+                ascendente = false;
+            }
+
+            if (vector[i] > vector[i + 1] == false)
+            {
+                descendente = false;
+            }
+        }
+
+        if (ascendente)
+        {
+            Console.WriteLine("El vector está ordenado de menor a mayor");
+        }
+        else if (descendente)
+        {
+            Console.WriteLine("El vector está ordenado de mayor a menor");
+        }
+        else
+        {
+            Console.WriteLine("El vector no está ordenado");
+        }
+
+        Console.ReadKey();
     }
 }

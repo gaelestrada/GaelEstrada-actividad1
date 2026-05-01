@@ -30,7 +30,6 @@ namespace Punto2
             }
 
             Console.WriteLine("Paises ordenados:");
-
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine(paises[i]);

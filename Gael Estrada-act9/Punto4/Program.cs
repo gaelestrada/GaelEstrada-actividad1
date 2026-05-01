@@ -1,5 +1,4 @@
-﻿// Punto 4: Docentes y notas.
-// Mayor, menor, ordenar y contar aprobados/desaprobados.
+﻿// Punto 4: Docentes y notas. Mayor, menor, ordenar y contar aprobados/desaprobados.
 
 using System;
 
@@ -30,13 +29,13 @@ namespace Punto4
                 {
                     if (notas[i] < notas[j])
                     {
-                        int auxNota = notas[i];
+                        int auxN = notas[i];
                         notas[i] = notas[j];
-                        notas[j] = auxNota;
+                        notas[j] = auxN;
 
-                        string auxNombre = nombres[i];
+                        string auxNom = nombres[i];
                         nombres[i] = nombres[j];
-                        nombres[j] = auxNombre;
+                        nombres[j] = auxNom;
                     }
                 }
             }
@@ -44,8 +43,8 @@ namespace Punto4
 
         static void Procesar()
         {
-            Console.WriteLine("Mayor nota: " + nombres[0] + " - " + notas[0]);
-            Console.WriteLine("Menor nota: " + nombres[5] + " - " + notas[5]);
+            Console.WriteLine("Mayor: " + nombres[0] + " - " + notas[0]);
+            Console.WriteLine("Menor: " + nombres[5] + " - " + notas[5]);
 
             int aprobados = 0;
             int desaprobados = 0;
@@ -53,17 +52,13 @@ namespace Punto4
             for (int i = 0; i < 6; i++)
             {
                 if (notas[i] >= 6)
-                {
                     aprobados++;
-                }
                 else
-                {
                     desaprobados++;
-                }
             }
 
-            Console.WriteLine("Cantidad de aprobados: " + aprobados);
-            Console.WriteLine("Cantidad de desaprobados: " + desaprobados);
+            Console.WriteLine("Aprobados: " + aprobados);
+            Console.WriteLine("Desaprobados: " + desaprobados);
         }
 
         static void Main(string[] args)
@@ -71,7 +66,6 @@ namespace Punto4
             Cargar();
             Ordenar();
             Procesar();
-
             Console.ReadKey();
         }
     }

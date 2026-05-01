@@ -5,58 +5,51 @@
 
 using System;
 
-namespace Punto3
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int[] puntuaciones = new int[6];
+
+        int suma = 0;
+        int mayor = 0;
+        int menor = 0;
+        int mayores500 = 0;
+
+        for (int i = 0; i < 6; i++)
         {
-            int[] puntuaciones = new int[6];
+            Console.Write("Ingrese puntuación: ");
+            puntuaciones[i] = Convert.ToInt32(Console.ReadLine());
 
-            int suma = 0;
-            int mayor = 0;
-            int menor = 0;
-            int mayores500 = 0;
+            suma += puntuaciones[i];
 
-            for (int i = 0; i < 6; i++)
+            if (i == 0)
             {
-                Console.Write("Ingrese puntuación: ");
-                puntuaciones[i] = Convert.ToInt32(Console.ReadLine());
-
-                suma += puntuaciones[i];
-
-                if (i == 0)
-                {
+                mayor = puntuaciones[i];
+                menor = puntuaciones[i];
+            }
+            else
+            {
+                if (puntuaciones[i] > mayor)
                     mayor = puntuaciones[i];
+
+                if (puntuaciones[i] < menor)
                     menor = puntuaciones[i];
-                }
-                else
-                {
-                    if (puntuaciones[i] > mayor)
-                    {
-                        mayor = puntuaciones[i];
-                    }
-
-                    if (puntuaciones[i] < menor)
-                    {
-                        menor = puntuaciones[i];
-                    }
-                }
-
-                if (puntuaciones[i] > 500)
-                {
-                    mayores500++;
-                }
             }
 
-            double promedio = suma / 6.0;
-
-            Console.WriteLine("Puntuación más alta: " + mayor);
-            Console.WriteLine("Puntuación más baja: " + menor);
-            Console.WriteLine("Promedio: " + promedio);
-            Console.WriteLine("Veces que superó 500 puntos: " + mayores500);
-
-            Console.ReadKey();
+            if (puntuaciones[i] > 500)
+            {
+                mayores500++;
+            }
         }
+
+        double promedio = suma / 6.0;
+
+        Console.WriteLine("Puntuación más alta: " + mayor);
+        Console.WriteLine("Puntuación más baja: " + menor);
+        Console.WriteLine("Promedio: " + promedio);
+        Console.WriteLine("Veces que superó 500 puntos: " + mayores500);
+
+        Console.ReadKey();
     }
 }

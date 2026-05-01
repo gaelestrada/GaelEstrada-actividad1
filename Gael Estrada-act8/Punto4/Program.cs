@@ -1,6 +1,5 @@
 ﻿// 4. Cargar nombres de 5 países y en otro vector la cantidad de habitantes.
-// Ordenar alfabéticamente e imprimir.
-// Luego ordenar por habitantes (mayor a menor).
+// Ordenar alfabéticamente e imprimir. Luego ordenar por habitantes (mayor a menor).
 
 using System;
 
@@ -22,51 +21,49 @@ namespace Punto4
                 habitantes[i] = int.Parse(Console.ReadLine());
             }
 
-            // Orden alfabético
+            // Ordenar alfabéticamente
             for (int i = 0; i < 4; i++)
             {
                 for (int j = i + 1; j < 5; j++)
                 {
                     if (paises[i].CompareTo(paises[j]) > 0)
                     {
-                        string auxPais = paises[i];
+                        string auxP = paises[i];
                         paises[i] = paises[j];
-                        paises[j] = auxPais;
+                        paises[j] = auxP;
 
-                        int auxHabitantes = habitantes[i];
+                        int auxH = habitantes[i];
                         habitantes[i] = habitantes[j];
-                        habitantes[j] = auxHabitantes;
+                        habitantes[j] = auxH;
                     }
                 }
             }
 
             Console.WriteLine("Orden alfabetico:");
-
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine(paises[i] + " - " + habitantes[i]);
             }
 
-            // Orden por habitantes (mayor a menor)
+            // Ordenar por habitantes (mayor a menor)
             for (int i = 0; i < 4; i++)
             {
                 for (int j = i + 1; j < 5; j++)
                 {
                     if (habitantes[i] < habitantes[j])
                     {
-                        int auxHabitantes = habitantes[i];
+                        int auxH = habitantes[i];
                         habitantes[i] = habitantes[j];
-                        habitantes[j] = auxHabitantes;
+                        habitantes[j] = auxH;
 
-                        string auxPais = paises[i];
+                        string auxP = paises[i];
                         paises[i] = paises[j];
-                        paises[j] = auxPais;
+                        paises[j] = auxP;
                     }
                 }
             }
 
             Console.WriteLine("Orden por habitantes:");
-
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine(paises[i] + " - " + habitantes[i]);

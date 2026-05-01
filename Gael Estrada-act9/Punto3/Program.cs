@@ -1,5 +1,4 @@
-﻿// Punto 3: Atletas y tiempos.
-// Promedio, mejor, peor y quienes superan el promedio.
+﻿// Punto 3: Atletas y tiempos. Promedio, mejor, peor y quienes superan el promedio.
 
 using System;
 
@@ -25,10 +24,8 @@ namespace Punto3
         static void Procesar()
         {
             int suma = 0;
-
             int mejor = tiempos[0];
             int peor = tiempos[0];
-
             int posMejor = 0;
             int posPeor = 0;
 
@@ -52,11 +49,10 @@ namespace Punto3
             double promedio = suma / 5.0;
 
             Console.WriteLine("Promedio: " + promedio);
-            Console.WriteLine("Mejor tiempo: " + nombres[posMejor]);
-            Console.WriteLine("Peor tiempo: " + nombres[posPeor]);
+            Console.WriteLine("Mejor: " + nombres[posMejor]);
+            Console.WriteLine("Peor: " + nombres[posPeor]);
 
-            Console.WriteLine("Superaron el promedio:");
-
+            Console.WriteLine("Superan el promedio:");
             for (int i = 0; i < 5; i++)
             {
                 if (tiempos[i] < promedio)
@@ -70,7 +66,6 @@ namespace Punto3
         {
             Cargar();
             Procesar();
-
             Console.ReadKey();
         }
     }

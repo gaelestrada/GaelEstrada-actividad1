@@ -1,5 +1,5 @@
-﻿// Punto 1: Registrar nombres y notas de 6 estudiantes.
-// Mostrar el mayor y menor, y si se repiten esas notas.
+﻿// Punto 1: Registrar nombres y notas de 6 estudiantes. Mostrar el mayor y menor,
+// y si se repiten esas notas.
 
 using System;
 
@@ -49,37 +49,26 @@ namespace Punto1
 
             for (int i = 0; i < 6; i++)
             {
-                if (notas[i] == mayor)
-                {
-                    contMayor++;
-                }
-
-                if (notas[i] == menor)
-                {
-                    contMenor++;
-                }
+                if (notas[i] == mayor) contMayor++;
+                if (notas[i] == menor) contMenor++;
             }
 
-            Console.WriteLine("Mayor nota: " + nombres[posMayor] + " - " + mayor);
-            Console.WriteLine("Menor nota: " + nombres[posMenor] + " - " + menor);
+            Console.WriteLine("Mayor: " + nombres[posMayor] + " - " + mayor);
+            Console.WriteLine("Menor: " + nombres[posMenor] + " - " + menor);
 
             if (contMayor > 1)
-            {
-                Console.WriteLine("La nota maxima se repite");
-            }
+                Console.WriteLine("Hay notas máximas repetidas");
 
             if (contMenor > 1)
-            {
-                Console.WriteLine("La nota minima se repite");
-            }
+                Console.WriteLine("Hay notas mínimas repetidas");
         }
 
         static void Main(string[] args)
         {
             Cargar();
             Procesar();
-
             Console.ReadKey();
         }
     }
 }
+

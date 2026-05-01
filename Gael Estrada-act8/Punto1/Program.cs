@@ -1,5 +1,4 @@
-﻿// 1. Cargar un vector de n elementos.
-// Imprimir el menor y un mensaje si se repite dentro del vector.
+﻿// 1. Cargar un vector de n elementos. Imprimir el menor y un mensaje si se repite dentro del vector.
 
 using System;
 
@@ -10,6 +9,7 @@ namespace Punto1
         static void Main(string[] args)
         {
             int n;
+            string linea;
 
             Console.Write("Ingrese cantidad de elementos: ");
             n = int.Parse(Console.ReadLine());
@@ -23,7 +23,6 @@ namespace Punto1
             }
 
             int menor = vector[0];
-
             for (int i = 1; i < n; i++)
             {
                 if (vector[i] < menor)
@@ -33,7 +32,6 @@ namespace Punto1
             }
 
             int contador = 0;
-
             for (int i = 0; i < n; i++)
             {
                 if (vector[i] == menor)
