@@ -35,6 +35,7 @@ namespace Punto3
             }
 
             Console.WriteLine("Vector ordenado:");
+
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(vector[i]);

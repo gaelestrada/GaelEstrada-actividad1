@@ -3,40 +3,45 @@
 
 using System;
 
-class Program
+namespace Punto2
 {
-    static void Main(string[] args)
+    class Program
     {
-        int[] vector1 = new int[4];
-        int[] vector2 = new int[4];
-        int[] vectorSuma = new int[4];
-
-        Console.WriteLine("Carga del primer vector");
-        for (int i = 0; i < 4; i++)
+        static void Main(string[] args)
         {
-            Console.Write("Ingrese valor: ");
-            vector1[i] = Convert.ToInt32(Console.ReadLine());
-        }
+            int[] vector1 = new int[4];
+            int[] vector2 = new int[4];
+            int[] vectorSuma = new int[4];
 
-        Console.WriteLine("Carga del segundo vector");
-        for (int i = 0; i < 4; i++)
-        {
-            Console.Write("Ingrese valor: ");
-            vector2[i] = Convert.ToInt32(Console.ReadLine());
-        }
+            Console.WriteLine("Carga del primer vector");
 
-        for (int i = 0; i < 4; i++)
-        {
-            vectorSuma[i] = vector1[i] + vector2[i];
-        }
+            for (int i = 0; i < 4; i++)
+            {
+                Console.Write("Ingrese valor: ");
+                vector1[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
-        Console.WriteLine("Vector suma:");
-        for (int i = 0; i < 4; i++)
-        {
-            Console.WriteLine(vectorSuma[i]);
-        }
+            Console.WriteLine("Carga del segundo vector");
 
-        Console.ReadKey();
+            for (int i = 0; i < 4; i++)
+            {
+                Console.Write("Ingrese valor: ");
+                vector2[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                vectorSuma[i] = vector1[i] + vector2[i];
+            }
+
+            Console.WriteLine("Vector suma:");
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine(vectorSuma[i]);
+            }
+
+            Console.ReadKey();
+        }
     }
 }
-

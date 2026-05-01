@@ -5,38 +5,41 @@
 
 using System;
 
-class Program
+namespace Punto1
 {
-    static void Main(string[] args)
+    class Program
     {
-        int[] vector = new int[8];
-
-        int sumaTotal = 0;
-        int sumaMayores36 = 0;
-        int cantidadMayores50 = 0;
-
-        for (int i = 0; i < 8; i++)
+        static void Main(string[] args)
         {
-            Console.Write("Ingrese el valor " + (i + 1) + ": ");
-            vector[i] = Convert.ToInt32(Console.ReadLine());
+            int[] vector = new int[8];
 
-            sumaTotal += vector[i];
+            int sumaTotal = 0;
+            int sumaMayores36 = 0;
+            int cantidadMayores50 = 0;
 
-            if (vector[i] > 36)
+            for (int i = 0; i < 8; i++)
             {
-                sumaMayores36 += vector[i];
+                Console.Write("Ingrese el valor " + (i + 1) + ": ");
+                vector[i] = Convert.ToInt32(Console.ReadLine());
+
+                sumaTotal += vector[i];
+
+                if (vector[i] > 36)
+                {
+                    sumaMayores36 += vector[i];
+                }
+
+                if (vector[i] > 50)
+                {
+                    cantidadMayores50++;
+                }
             }
 
-            if (vector[i] > 50)
-            {
-                cantidadMayores50++;
-            }
+            Console.WriteLine("Suma total del vector: " + sumaTotal);
+            Console.WriteLine("Suma de los mayores a 36: " + sumaMayores36);
+            Console.WriteLine("Cantidad de valores mayores a 50: " + cantidadMayores50);
+
+            Console.ReadKey();
         }
-
-        Console.WriteLine("Suma total del vector: " + sumaTotal);
-        Console.WriteLine("Suma de los mayores a 36: " + sumaMayores36);
-        Console.WriteLine("Cantidad de valores mayores a 50: " + cantidadMayores50);
-
-        Console.ReadKey();
     }
 }

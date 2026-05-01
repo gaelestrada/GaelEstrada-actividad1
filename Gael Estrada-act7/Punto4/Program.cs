@@ -3,47 +3,53 @@
 
 using System;
 
-class Program
+namespace Punto4
 {
-    static void Main(string[] args)
+    class Program
     {
-        int[] vector = new int[10];
-
-        for (int i = 0; i < 10; i++)
+        static void Main(string[] args)
         {
-            Console.Write("Ingrese valor: ");
-            vector[i] = Convert.ToInt32(Console.ReadLine());
-        }
+            int[] vector = new int[10];
 
-        bool ascendente = true;
-        bool descendente = true;
-
-        for (int i = 0; i < 9; i++)
-        {
-            if (vector[i] < vector[i + 1] == false)
+            for (int i = 0; i < 10; i++)
             {
-                ascendente = false;
+                Console.Write("Ingrese valor: ");
+                vector[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            if (vector[i] > vector[i + 1] == false)
+            bool ascendente = true;
+            bool descendente = true;
+
+            for (int i = 0; i < 9; i++)
             {
-                descendente = false;
+                if (vector[i] >= vector[i + 1])
+                {
+                    ascendente = false;
+                }
+
+                if (vector[i] <= vector[i + 1])
+                {
+                    descendente = false;
+                }
             }
-        }
 
-        if (ascendente)
-        {
-            Console.WriteLine("El vector está ordenado de menor a mayor");
-        }
-        else if (descendente)
-        {
-            Console.WriteLine("El vector está ordenado de mayor a menor");
-        }
-        else
-        {
-            Console.WriteLine("El vector no está ordenado");
-        }
+            if (ascendente)
+            {
+                Console.WriteLine("El vector está ordenado de menor a mayor");
+            }
+            else
+            {
+                if (descendente)
+                {
+                    Console.WriteLine("El vector está ordenado de mayor a menor");
+                }
+                else
+                {
+                    Console.WriteLine("El vector no está ordenado");
+                }
+            }
 
-        Console.ReadKey();
+            Console.ReadKey();
+        }
     }
 }
